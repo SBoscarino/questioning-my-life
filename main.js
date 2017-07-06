@@ -79,13 +79,12 @@ console.log(result);
 // 6.
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
-var anItem = "cat";
 
-function getLength() {
+function getLength(anItem) {
   return anItem.length;
 }
-var result = getLength("cat");
-console.log(getLength);
+var result = getLength("horse");
+console.log(result);
 
 
 // 7.
